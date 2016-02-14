@@ -1,0 +1,158 @@
+/*
+// DARK theme for puttytribe.com
+// Developed by David Stroud, dwstroud.com
+// Website: http://theputtytribe.com/forum/topics/dark-mode-for-puttytribe-com-safari
+*/
+body {
+    background: #222; !important;
+}
+#xg_themebody {
+    background: #222 !important;
+}
+.xg_theme #xg_navigation {
+    border-left: none !important;
+    border-right: none !important;
+}
+div#xg_canvas.xj_canvas,
+div#xg_profile_activity.xg_module.xg_module_activity.indented_content.profile.column_2,
+.xg_theme .xg_module_body
+{
+    font-size: 1.1em !important;
+    line-height: 1.5em !important;
+}
+div#xg_layout_column_1.xg_1col.first-child {
+    font-size: 0.8em !important;
+}
+.xg_theme a {
+    color: #ff9900 !important;
+    border-bottom: none !important;
+    text-decoration: none !important;
+    letter-spacing: 0px;
+}
+.xg_theme a:hover{
+    color: #ee7700 !important;
+    // border-bottom: 1px dotted #ff8800 !important;
+}
+.xg_theme a:visited {
+    color: #ee5500 !important;
+    border-bottom: 1px dotted #aa4400 !important;
+}
+.xg_widget_forum_topic_show .discussion a {
+    // text-decoration: none !important; // remove underlines from links in discussions (separately)
+}
+p .reactions {
+    font-size:1em !important;
+}
+p.dy-small.xg_lightfont.indent {
+    font-size: 12px !important;
+    padding-bottom:0.5em !important;
+}
+.module_forum h3 a {
+    font-size: 1.4em !important;
+}
+.xg_theme #xg_navigation li {
+    border-right: 0 !important;
+}
+.xg_theme #xg {
+    background: none !important;
+}
+.xg_theme #xg_navigation {
+    background: #444 !important;
+}
+
+
+.xg_module.html_module.module_text.xg_reset,
+.xg_module.module_forum.indented_content,
+.xg_module.module_video,
+.xg_module.module_photo,
+#xg_module_account,
+.xg_module.mini-leaderboard-module.xj_leaderboard_module,
+.xg_module.module_events,
+.xg_module.module_members,
+#xg_network_activity,
+.xg_module.xg_module_with_dialog,
+.xg_module,
+.xg_module_body {
+    background: #222 !important;
+    border-color: #666 !important;
+    border: 0px !important;
+    color: #ccc !important;
+}
+h1, h2, h3, #xg_sitedesc {
+    color: #dddddd !important;
+    letter-spacing: 0 !important;
+}
+h3,
+.module_forum .topic > h3 {
+    font-size: 1em !important
+}
+.xg_widget_profiles_profile_show .xg_2col h1 {
+    margin-left: 10px !important;
+    padding-bottom: 10px !important;
+}
+.topic h3,
+{
+    font-size: 0.8em !important;
+}
+.xg_theme #xg_navigation {
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+.xg_theme #xg_navigation li.this {
+    border-top:4px solid #ff9900 !important;
+}
+.xg_theme .xg_module_head {
+    background: #333 !important;
+    padding: 10px 0 10px 5px !important;
+    margin: 0 5px;
+    margin-bottom: 10px !important;
+    border-bottom: 3px solid #363636 !important;
+}
+
+.xg_span-14 {
+    margin-right: 25px !important;
+}
+.xg_span-7 {
+    width: 304px !important;
+}
+.dy-avatar.dy-avatar-full-width {
+    border-radius: 10px !important;
+}
+
+.xg_theme .xg_lightborder {
+    border-color: #000 !important;
+    border-style: dotted !important;
+}
+table.categories th {
+    font-size:0.8em !important;
+}
+
+/* hide elements -------------------------------------------------------------- */
+/* 'give a gift' and 'comment' links */
+a.xg_sprite.xg_sprite-gift,
+a.xg_sprite.xg_sprite-comment {
+    display: none !important;
+}
+/* 'puttytribe' badges in sidebar */
+.xg_module.html_module {
+    display: none !important;
+}
+/* 'leaderboard' in sidebar */
+div.xg_module.mini-leaderboard-module.xj_leaderboard_module {
+    display: none !important;
+}
+
+/* Make first column span entire page, bumping sidebar content below */
+/*
+.xg_span-14 {
+    width: 982px !important;
+}
+.xg_span-14 #xg_canvas {
+    width: 982px !important;
+}
+// The above works OK for forum page, the below is in development for other pages!
+.xg_widget_main_index .xg_span-14 .xg_3col, .xg_widget_profiles_profile_show .xg_span-14 .xg_3col, .xg_widget_profiles_profile_apps.xg_span-14 .xg_3col {
+    width: 982px !important;
+}
+*/
+

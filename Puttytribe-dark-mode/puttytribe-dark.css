@@ -1,12 +1,10 @@
-/*
 // DARK theme for theputtytribe.com
 //
-// Version 0.2 - Sunday 14 Feb 2016. Happy Valentine's Day! (My GF even helped me get this online!)
+// Version 0.3 - Monday 15 Feb 2016.
 //
 // Developed by David Stroud, dwstroud.com
-// Website: http://theputtytribe.com/forum/topics/dark-mode-for-puttytribe-com-safari
-*/
-
+// Website: theputtytribe.com/forum/topics/dark-mode-for-puttytribe-com-safari
+//
 body {
     background: #222; !important;
 }
@@ -63,8 +61,6 @@ p.dy-small.xg_lightfont.indent {
 .xg_theme #xg_navigation {
     background: #444 !important;
 }
-
-
 .xg_module.html_module.module_text.xg_reset,
 .xg_module.module_forum.indented_content,
 .xg_module.module_video,
@@ -130,33 +126,29 @@ h3,
 table.categories th {
     font-size:0.8em !important;
 }
-
-/* hide elements -------------------------------------------------------------- */
-/* 'give a gift' and 'comment' links */
+//
+// HIDE certain elements from view...
+//
+// 'give a gift' and 'comment' links
 a.xg_sprite.xg_sprite-gift,
 a.xg_sprite.xg_sprite-comment {
     display: none !important;
 }
-/* 'puttytribe' badges in sidebar */
+// 'puttytribe' badges in sidebar
 .xg_module.html_module {
     display: none !important;
 }
-/* 'leaderboard' in sidebar */
+// 'leaderboard' in sidebar
 div.xg_module.mini-leaderboard-module.xj_leaderboard_module {
     display: none !important;
 }
-
-/* Make first column span entire page, bumping sidebar content below */
-/*
-.xg_span-14 {
-    width: 982px !important;
+//
+// Text editor styles - as the text editor on the main message system is loaded into an iFrame, the below styles don't yet apply themselves properly :(
+//
+#tinymce {
+    background: #222 !important;
+    color: #aca !important;
+    font-family: "Helvetica Neue", sans-serif !important;
+    font-size: 1em !important;
+    line-height: 1.4em !important;
 }
-.xg_span-14 #xg_canvas {
-    width: 982px !important;
-}
-// The above works OK for forum page, the below is in development for other pages!
-.xg_widget_main_index .xg_span-14 .xg_3col, .xg_widget_profiles_profile_show .xg_span-14 .xg_3col, .xg_widget_profiles_profile_apps.xg_span-14 .xg_3col {
-    width: 982px !important;
-}
-*/
-
